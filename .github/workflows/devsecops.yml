@@ -10,7 +10,7 @@ env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ toLower(github.repository) }}   # owner/repo all lowercase
   IMAGE_TAG: ${{ github.sha }}
-  NODE_VERSION: "18"
+  NODE_VERSION: "18" #test
 
 jobs:
   lint_and_test:
